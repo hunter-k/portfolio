@@ -1,0 +1,52 @@
+body {
+	font-family: verdana;
+}
+#home-page {
+	background-image: url('https://static.pexels.com/photos/110241/pexels-photo-110241.jpeg');
+	background-size: cover;
+    background-position: center 80%;
+}
+
+#portfolio-page {
+	background-color: lightgrey;
+}
+#menu {
+	position: fixed;
+	z-index: 99;
+	margin-top: 20px;
+}
+
+#menu li{
+	display: inline;
+	background-color: rgba(157, 167, 183, 0.5);
+	width: 150px;
+	padding: 20px;
+	border-radius: 15px;
+	color: black;
+	font-size: 2em;
+}
+
+#menu li:hover{
+	background-color: rgba(157, 167, 183, 0.9);
+}
+
+#headshot-container {
+	z-index: 99;
+	background-color: black;
+	text-align: center;
+}
+
+#intro-container{
+	background-color: lightgrey;
+	text-align: center;
+}
+
+.hype-img {
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#hypenings {
+	text-align: center;
+}
